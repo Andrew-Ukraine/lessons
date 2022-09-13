@@ -1,0 +1,42 @@
+h1{
+	color: brown;
+}
+.navigation + p{
+	color: blue;
+}
+.list {
+	color: aquamarine;
+}
+.one-text ~ p {
+	color: chartreuse;
+}
+div.two-text {
+	color: chocolate;
+}
+.text-img {
+	color: gray;
+}
+.text > p{
+	color: blueviolet;
+}
+.text-list span{
+	color: darkmagenta;
+}
+#one {
+	color: lime;
+}
+span {
+	color: navy;
+}
+.basement p {
+	color: coral;
+}  
+.text.list{
+	color: darkgreen;
+}
+.text-list ol{
+		color: darkorange;
+	}
+.text-list .tl-two{
+	color: deeppink;
+}
