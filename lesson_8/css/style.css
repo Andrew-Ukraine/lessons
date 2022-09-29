@@ -59,7 +59,7 @@
 	padding-left: 32px;
 	min-height: 35px;
 }
-.list li:not(:last-child){
+.first-list li:not(:last-child){
 	margin-bottom: 4px;
 }
 .second-block{
