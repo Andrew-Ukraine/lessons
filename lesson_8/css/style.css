@@ -55,7 +55,7 @@
 	color: #1E212C;
 }
 .first-list li{
-	background: url('../icon/Vector.png') 0 5px no-repeat;
+	background: url('../icon/Vector.png') 0 3px no-repeat;
 	padding-left: 32px;
 	min-height: 35px;
 }
