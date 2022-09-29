@@ -22,16 +22,13 @@
 	font-display: swap;
 	font-style: normal;
 }
-
 .main-container{
 	line-height: 160%;
 	color: #424551;
 	max-width: 1230px;
 	margin-bottom: 30px;
 }
-
 .first-block{
-	
 	max-width: 615px;
 	/* margin-bottom: 180px; */
 	margin-bottom:118px;
@@ -64,10 +61,8 @@
 .list li:not(:last-child){
 	margin-bottom: 4px;
 }
-
 .second-block{
 	max-width: 600px;
-	/* margin-left: 630px; */
 }
 .second-block p:nth-child(1){
 	font-weight: 700;
@@ -89,9 +84,6 @@
 	font-size: 20px;
 	line-height: 150%;
 	color: #787A80
-}}
-.second-block:last-child{
-	
 }
 .rate-list{
 	margin-bottom:27px;
