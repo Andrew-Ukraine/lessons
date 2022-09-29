@@ -94,9 +94,11 @@
 }
 .rate-list li:nth-child(1){
 	background: url('../icon/star.png') 0 4px no-repeat;
+	margin-bottom: 9px;
 }
 .rate-list li:nth-child(2){
 	background: url('../icon/play.png') 0 4px no-repeat;
+	margin-bottom: 4px;
 }
 .rate-list li:nth-child(3){
 	background: url('../icon/man.png') 0 4px no-repeat;
