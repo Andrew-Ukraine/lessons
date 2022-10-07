@@ -1,0 +1,243 @@
+
+
+.link{
+	max-width: 100%;
+	border-bottom: 2px double green;
+	margin-bottom: 5px;
+	margin-top: 0;
+	
+	background: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.nationalpedia.com%2Fwp-content%2Fuploads%2F2017%2F04%2Fnational-flag-of-Ukraine.png&f=1&nofb=1&ipt=34429216287188b50c244aa5820cedd2b93a7575ac8ec55ca7665ee810308c4c&ipo=images') 0 0 / contain ;
+} 
+.link a{
+	font-size: 26px;
+	display: block;
+	width: 120px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 1px;
+	margin: 20px auto;
+	background-color: gainsboro;
+}
+.link a:hover{
+	background: none;
+	color: #fff;
+	text-decoration: underline;
+	text-shadow: 0 0 5px red;
+}
+#gam{
+	display: none;
+}
+#gam:target{
+	display: block;
+}
+.game{
+	max-width: 900px;
+	height: 600px;
+	margin: 0 auto;
+	background: url('https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-8-full.jpg') 0 0 / cover no-repeat;
+	font-weight: 700;
+	font-size: 25px;
+	
+}
+.start{
+	margin-left: 377px;
+	width: 63px;
+	padding: 1px;
+	border: 3px solid red;
+	border-radius: 15px;
+	background-color: #fff;
+}
+.one{
+	margin-left: 383px;
+	width: 53px;
+	height: 70px;
+	border-radius: 10px 10px 0 0;
+	background-color: blueviolet;
+}
+.two{
+	background-color: #fff;
+	margin-left: 246px;
+	width: 550px;
+	height: 42px;
+	border-radius: 15px 15px 0 0;
+}
+.three{
+	background-color: blue;
+	width: 32px;
+	height: 100px;
+	margin-left: 246px;
+	margin-right: 480px;
+}
+
+.four{
+	background-color: blueviolet;
+	width: 390px;
+	height: 42px;
+	margin-left: 246px;
+	border-radius: 0 20px;
+}
+.five{
+	background-color: black;
+	margin-left: 586px;
+	width: 50px;
+	height: 200px;
+}
+.six{
+	background-color: aqua;
+	width: 450px;
+	height: 35px;
+	margin-left: 185px;
+	border-radius: 0 0 20px 20px;
+}
+.seven{
+	background-color: blue;
+	width: 30px;
+	height: 195px;
+	margin-left: 185px;
+	margin-top: -230px;
+}
+.eight{
+	background-color: palevioletred;
+	width: 90px;
+	height: 25px;
+	margin-left: 125px;
+	margin-top: -220px;
+	border-radius: 0 13px;
+}
+.nine{
+	background-color: chocolate;
+	width: 22px;
+	height: 210px;
+	margin: -235px 0 0 125px;
+}
+.ten{
+	background-color: cornflowerblue;
+	width: 165px;
+	height: 22px;
+	margin: -232px 0 0 125px;
+	border-radius: 13px 10px 10px 0;
+}
+.finish{
+	width: 80px;
+	margin: -39px 0 0 290px;
+	padding: 1px;
+	border: 3px solid red;
+	border-radius: 15px;
+	background-color: #fff;
+}
+.three-one{
+	background-color: blue;
+	width: 32px;
+	height: 100px;
+	margin-left: 765px;
+	margin-top: 69px;
+}
+.three-two{
+	background-color: black;
+	width: 30px;
+	height: 200px;
+	margin-left: 765px;
+}
+.wrong_way{
+	width: 141px;
+	border: 3px solid red;
+	border-radius: 15px;
+	background-color: #fff;
+	padding: 1px;
+	text-align: center;
+	margin-left: 720px;
+}
+.four-one{
+	background-color: blue;
+	width: 30px;
+	height: 70px;
+	margin: -470px 0 0 550px;
+	border-radius: 10px 0 0;
+}
+.four-two{
+	background-color: blueviolet;
+	height: 30px;
+	width: 200px;
+	margin: -70px 0 0 580px;
+}
+.wrong_way2{
+	width: 141px;
+	border: 3px solid red;
+	border-radius: 15px;
+	background-color: #fff;
+	padding: 1px;
+	text-align: center;
+	margin-left: 759px;
+	margin-top: -45px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.finish,
+.three-one,
+.three-two,
+.wrong_way,
+.four-one,
+.four-two,
+.wrong_way2{
+	visibility: hidden;
+}
+.start:hover + div{
+	visibility: visible;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
+.seven:hover,
+.eight:hover,
+.nine:hover,
+.ten:hover,
+.finish:hover,
+.three-one:hover,
+.three-two:hover,
+.wrong_way:hover,
+.four-one:hover,
+.four-two:hover,
+.wrong_way2:hover
+{
+	visibility: visible;
+}
+
+.one:hover+div,
+.two:hover+div,
+.three:hover+div,
+.four:hover+div,
+.five:hover+div,
+.six:hover+div,
+.seven:hover+div,
+.eight:hover+div,
+.nine:hover+div,
+.ten:hover+div,
+.finish:hover,
+.three-one:hover+div,
+.three-two:hover+div,
+.four-one:hover+div,
+.four-two:hover+div,
+.two:hover ~ .three-one,
+.two:hover ~ .four-one{
+	visibility: visible;
+}
+
+.start:hover,
+.finish:hover,
+.wrong_way:hover,
+.wrong_way2:hover{
+	background-color: blue;
+	color: yellow;
+}
