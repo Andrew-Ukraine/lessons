@@ -1,0 +1,159 @@
+[class*="__container"]{
+	max-width: 1100px;
+	min-height: 400px;
+	position: relative;
+	top: 65px;
+	margin: 0 auto;
+	border: 2px solid red;
+	
+	z-index: 2;
+}
+.header{
+	width: 100%;
+	position: fixed;
+	z-index: 50;
+	left: 0;
+	top: 0;
+	min-height: 60px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	text-align: center;
+	color: antiquewhite;
+	font-size: 20px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.menu{
+	font-size: 0;
+}
+.menu__item{
+	display: inline-block;
+	position: relative;
+}
+.menu__item:not(:last-child){
+	margin-right: 10px;
+}
+.menu__item:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	top: 100%;
+}
+.menu__link{
+	font-size: 18px;
+	display: inline-block;
+	padding: 15px;
+	color: wheat;
+}
+.submenu{
+	position: absolute;
+	background-color: rgba(211, 211, 211, 0.8);
+	padding: 15px;
+	min-width: 150px;
+	top: 130%;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+
+}
+.submenu__item:not(:last-child){
+	margin-bottom: 10px;
+}
+.submenu__link{
+	font-size: 18px;
+	color: chartreuse;
+}
+
+.submenu__link{
+	font-size: 16px;
+	color: blue;
+}
+.sticky__container{
+	background-color: aquamarine;
+	position: relative ;
+}
+.sticky__block1{
+position: sticky;
+z-index: 2;
+width: 90%;
+height: 30px;
+top: 0;
+left: 0;
+background-color: blue;
+}
+.sticky__block2{
+	/* position: relative; */
+	z-index: 3;
+	width: 100%;
+	height: 40px;
+	background-color: chocolate;
+}
+.sticky__block3{
+	/* position: relative; */
+	z-index: 3;
+	width: 100%;
+	height: 40px;
+	background-color: cornflowerblue;
+}
+.car__container{
+	background-color: gray;
+}
+.car__roof{
+	position: absolute;
+	z-index: 3;
+	border-radius: 80% 0 0 ;
+	background-color: yellow;
+	width: 200px;
+	height: 90px;
+	top: 120px;
+	left: 430px;
+}
+.car__body{
+	width: 250px;
+	height: 45px;
+	border-radius: 15px;
+	background-color: yellow;
+	position: absolute;
+	top: 190px;
+	left: 400px;
+	z-index: 3;
+}
+.car__wheel1{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	z-index: 3;
+	top: 220px;
+	left: 430px;
+}
+.car__wheel2{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	 z-index: 2; /*тут так задумано */
+	top: 220px;
+	left: 580px;
+}
+.car__glass{
+	position: absolute;
+	z-index: 3;
+	border-radius: 70% 0 0 ;
+	background-color: lightblue;
+	width: 90px;
+	height: 50px;
+	top: 140px;
+	left: 450px;
+}
+.car__road{
+	position: absolute;
+	width: 1000px;
+	height: 25px;
+	background-color: red;
+	top: 190px;
+	left: 0;
+	z-index: 2;
+}
