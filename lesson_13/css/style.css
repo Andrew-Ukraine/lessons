@@ -1,0 +1,157 @@
+
+
+.page{
+	background-color: darkgrey;
+	font-size: 20px;
+}
+.page__title{
+	margin-bottom: 10px;
+}
+.title__item{
+	font-weight: 900;
+	font-size: 32px;
+	transform: translate(0px, 50%);
+	animation-name: title;
+	animation-duration: 1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+.page__text{
+	margin-bottom: 20px;
+	transform: scale(0);
+	animation-name: title-2;
+	animation-duration: 4s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+
+}
+@keyframes title {
+	0% {
+		transform: translate(0px, 50%);
+		opacity: 0;
+	}
+	
+	100% {
+		transform: translate(0px,0%);
+		opacity: 1;
+		color: red;
+	}
+}
+@keyframes title-2{
+	0%{
+		
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+/* circle */
+
+.button{
+	position: relative;
+	background-color: aquamarine;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border:1px solid #faea10;
+	animation-name: circle;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	transform: translate(-200px,0);
+	animation-duration: 3s;
+	margin-bottom: 15px;
+} 
+.button__text-two{
+	opacity: 0;
+	color: #faea10;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border:1px solid #faea10;
+	overflow: hidden;
+	background-color: blue;
+}
+.button__text-one{
+	position: absolute;
+	font-size: 24px;
+	top: 56px;
+	left: 35px;
+}
+.button:hover .button__text-two{
+	position: absolute;
+	top:0;
+	left: 150px;
+	transition: all 3s linear 1s;
+	opacity: 1;
+	color: blue;
+	text-align: center;
+	background-color: #faea10;
+}
+
+@keyframes circle{
+	50%{
+		transform: translate(100px,0);
+	}
+	100%{
+		transform: translate(20px,0);
+		opacity: 1;
+	}
+}
+
+/* yin-yang */
+.yin-yang{
+	width: 96px;
+	height: 48px;
+	box-sizing: content-box;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px 2px 50px 2px;
+	border-radius: 100%;
+	position: relative;
+	background: white;
+	margin-bottom: 20px;
+	animation-name: yin-yang;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	margin-left: 20px;
+}
+.yin-yang:hover{
+	animation-play-state: paused;
+}
+.yin-yang::before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	background: white;
+	border: 18px solid black;
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	box-sizing: content-box;
+}
+.yin-yang::after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: black;
+	border: 18px solid white;
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	box-sizing: content-box;
+}
+
+@keyframes yin-yang{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
